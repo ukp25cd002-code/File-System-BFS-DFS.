@@ -1,0 +1,26 @@
+SAMPLE INPUT
+
+Enter number of nodes: 6
+
+Enter node names:
+Root Docs Images a.txt b.pdf photo.jpg
+
+Enter adjacency matrix:
+0 1 1 0 0 0
+1 0 0 1 1 0
+1 0 0 0 0 1
+0 1 0 0 0 0
+0 1 0 0 0 0
+0 0 1 0 0 0
+
+Enter starting node index (0 to 5): 0
+
+Enter file name to search: b.pdf
+
+SAMPLE OUTPUT
+
+BFS Traversal: Root Docs Images a.txt b.pdf photo.jpg
+File found using BFS.
+
+DFS Traversal: Root Docs a.txt b.pdf Images photo.jpg
+File found using DFS.
